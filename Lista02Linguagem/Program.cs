@@ -62,6 +62,7 @@ namespace ConsoleApp1
         }
         static void Ex2()
         {
+            // Exercicio resolvido
             double soma = 0, lido, final;
             int quantidade = 0;
 
