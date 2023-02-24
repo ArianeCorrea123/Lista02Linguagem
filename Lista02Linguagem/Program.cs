@@ -109,10 +109,12 @@ namespace ConsoleApp1
             Console.WriteLine("Entre com um número inteiro.");
             num = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= (num * num * num); i++)
+            for (int i = 0; i <= (num * num * num); i++)
             {
-                if (i % 4 == 0 && i % 6 != 0)
+               
+                if(i % 2 == 0 && i % 4 == 0 && i % 6!= 0)
                     Console.WriteLine(i);
+
             }
 
             Console.WriteLine("Fim");
